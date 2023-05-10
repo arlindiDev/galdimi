@@ -1,5 +1,11 @@
 # Day 1
 
+## [Homework](https://docs.google.com/document/d/1O4V29DCdxhvjuiktvloD7fszT5uPqZP-4bBzzTbxOVQ/edit)
+
+SOLUTION
+
+
+
 ## Topics
 ### Variables - Datatypes: String, Integer, Float, Boolean
 ### If statements
