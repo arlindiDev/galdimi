@@ -21,12 +21,14 @@ equals `==`
 ### Input from html to javascript
 
 HTML
+
 ```
 <input id="input" type="text>
 ```
 
 Javascript
-````
+
+```
 var input = document.getElementById("input").value;
 ```
 
@@ -37,4 +39,5 @@ console.log("Hello World")
 ```
 
 ### Difference between html element and html tag
+
 <img width="500" alt="Screenshot 2023-05-10 at 18 12 15" src="https://github.com/arlindiDev/galdimi/assets/6221337/5ca94ff8-03ef-4184-a700-2fb9e5b37b9f">
