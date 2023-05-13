@@ -1,37 +1,37 @@
 <!Doctype html>
 <html>
+
 <body>
     <input id="Studenti">Numri i studentit
     <br><br>
-    <input id="viti">Viti 
+    <input id="viti">Viti
     <br><br>
     <button onclick="getPrice()">
-Get total
-</button>
+        Get total
+    </button>
     <br><br>
     <input id="total">
     <script>
-        getPrice = function() {
+        getPrice = function () {
             var numriIStudentit = document.getElementById("Studenti").value;
             var vitiIStudentit = Number(document.getElementById("viti").value);
+
             const semestri = 1000;
             const discountIPare = 0.05;
             const discountIDyte = 0.1;
             const discountITrete = 0.25;
 
-            if (vitiIStudentit == 1 ) {
-            var sems = ( semestri - semestri*discountIPare);
-
-            } else if(vitiIStudentit == 2) {
-                var sems = ( semestri - semestri*discountIDyte);
-
+            if (vitiIStudentit == 1) {
+                var sems = (semestri - semestri * discountIPare);
+            } else if (vitiIStudentit == 2) {
+                var sems = (semestri - semestri * discountIDyte);
             } else if (vitiIStudentit == 3) {
-                var sems = ( semestri - semestri*discountITrete);
-
+                var sems = (semestri - semestri * discountITrete);
             }
-        
+
             document.getElementById("total").value = sems;
         }
     </script>
 </body>
+
 </html>

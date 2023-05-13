@@ -1,35 +1,35 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>String length</title>
 </head>
+
 <body>
-   
-    <input id="First String"> <br> 
-    <input id="Second String"> <br><br>
+
+    <input id="string1"> <br>
+    <input id="string2"> <br><br>
     <button onclick="getString()">Compare Strings</button>
     <br><br>
     <input id="total">
     <script>
-        getString = function() {
-        var string1 = document.getElementById("First String").value;
-        var string2 = document.getElementById("Second String").value;
-        
+        getString = function () {
+            var string1 = document.getElementById("string1").value;
+            var string2 = document.getElementById("string2").value;
 
-    if(string1.length > string2.length) {
-        document.getElementById("total").value = "First String is longer";
-    } 
-    else if(string1.length < string2.length) {
-        document.getElementById("total").value = "Second String is longer";
-    } 
-    else if(string1.length == string2.length) {
-        document.getElementById("total").value ="Strings are equal"
-    }
-     
-
-}
+            if (string1.length > string2.length) {
+                document.getElementById("total").value = "First String is longer";
+            }
+            else if (string1.length < string2.length) {
+                document.getElementById("total").value = "Second String is longer";
+            }
+            else if (string1.length == string2.length) {
+                document.getElementById("total").value = "Strings are equal"
+            }
+        }
     </script>
 </body>
+
 </html>
