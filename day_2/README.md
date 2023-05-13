@@ -23,3 +23,7 @@ git push
 ```
 git pull
 ```
+#### Format code in VS Code
+```
+shift+alt+f
+```
