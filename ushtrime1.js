@@ -5,9 +5,9 @@ function okButtonClicked() {
 	var input = document.getElementById("input").value;
 
 if(input == 1) {
-		console.log("Janari");
+		document.getElementById("result").value = "Janari";
 } else if (input == 2){
-		console.log("Shkurt");
+	document.getElementById("result").value = "Shkurti";
 }
 }
 

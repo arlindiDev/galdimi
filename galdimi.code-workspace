@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Nasa Website"
+		},
+		{
+			"name": "galdimi",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "galdimi"
+	}
+}
