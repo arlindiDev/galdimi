@@ -1,3 +1,8 @@
+// Exercise
+// Kur i eshte i plotpjestueshem vetem me 2 printo Fizz
+// Kur i eshte i plotpjestueshem vetem me 5 printo Buzz
+// Kur i eshte i plotpjestueshem me 2 dhe 5 printo FizzBuzz
+
 
 for (var i = 1; i <= 20; i++) {
 	// LOOP FROM HERE
