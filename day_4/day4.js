@@ -1,20 +1,30 @@
 // Exercise
-// Kur i eshte i plotpjestueshem vetem me 2 printo Fizz
+// Kur i eshte i plotpjestueshem vetem me 3 printo Fizz
 // Kur i eshte i plotpjestueshem vetem me 5 printo Buzz
-// Kur i eshte i plotpjestueshem me 2 dhe 5 printo FizzBuzz
+// Kur i eshte i plotpjestueshem me 3 dhe 5 printo FizzBuzz
 
 
 for (var i = 1; i <= 20; i++) {
 	// LOOP FROM HERE
-	
-	if(i % 2 == 0) {
-		console.log(i);
+	// nese i = 2 printohet Fizz, mos kqyr mo 
+	// nese i = 5 printohet veq Buzz, mos e kqyr mo
+	// nese i = 10 printohet veq FizzBuzz, mos e kqyr mo
+	//  i = 7 
+
+
+
+	if (i % 3 == 0 && i % 5 == 0) {
+		console.log(i + " FizzBuzz");
+		
 	}
 
-	if(i % 5 == 0) {
-		console.log(i);
+	else if (i % 5 == 0) {
+		console.log(i + " Buzz");
 	}
 
+	else if ( i % 3 == 0) {
+		console.log(i + " Fizz");
+	}
 	// LOOP TO HERE
 }
 
@@ -33,3 +43,4 @@ console.log("DONE kushti false");
 // i = 2 | true | true  | 2
 
 // i = 10 | true | true  | 10 | 10
+// i = 10 | true | 
