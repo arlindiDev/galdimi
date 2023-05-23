@@ -18,13 +18,15 @@ for (var i = 1; i <= 20; i++) {
 	// LOOP TO HERE
 }
 
-//2
-//4
-//5
-//6
-//8
-//10
-//10
+//2 Fizz
+//4 Fizz
+//5 Buzz
+//6 Fizz
+//8 Fizz
+//10 FizzBuzz
+//12 Fizz
+//14 Fizz
+//15 Buzz
 
 console.log("DONE kushti false");
 // i = 1 | true | false |
