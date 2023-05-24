@@ -4,6 +4,9 @@ for (var i = 0; i < names.length; i++) {
 
     var name = names[i];
 
-    if (name[0] == "G") {
+    if (name.length >= 5 ) {
         console.log(name);
+    } else if (name.length < 5) {
+        console.log(name)
     }
+}
