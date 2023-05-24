@@ -1,5 +1,4 @@
-
-var names = ["Galdim", "Arlind", "Cima", "Majasili", "google", "Hajdari", "hashimi"];
+var names = ["Hello", "Java", "Arrays", "Test", "Laptop", "IntelliJ", "Coding", "fun"];
 
 for (var i = 0; i < names.length; i++) {
 
@@ -8,6 +7,3 @@ for (var i = 0; i < names.length; i++) {
     if (name[0] == "G") {
         console.log(name);
     }
-}
-
-
