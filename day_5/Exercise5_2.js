@@ -7,17 +7,17 @@ var tekNums = 0;
 
 for (var i = 0; i < numbers.length; i++) {
 
-     if (numbers[i] > 0) {
+    if (numbers[i] > 0) {
 
         positiveNums++;
     }
     else if (numbers[i] < 0) {
 
-       negativeNums++;
-   }
-   // From line 19-24 we check the array elements for even and odd numbers comment out to work
-     else if (numbers[i] % 2 == 0) {
-       ciftNums++;
+        negativeNums++;
+    }
+    // From line 19-24 we check the array elements for even and odd numbers comment out to work
+    else if (numbers[i] % 2 == 0) {
+        ciftNums++;
     }
     else if (numbers[i] % 2 != 0) {
         tekNums++;
