@@ -14,7 +14,7 @@ console.log(largest);
 // then we compare the elements to each other
 // largest = 5 | true | 5 < 5 | false | largest = 5
 
-// seconde run 
+// second run 
 // i = 1, | true | largest = 5 < -9, | false
 // largest is still 5
 
@@ -33,4 +33,4 @@ console.log(largest);
 // sixth run 
 // i = 5, | true | 24 < 54 | true
 // now largest cahnges to 54 
-// 54 this is thr largest integer in the array
+// 54 this is the largest integer in the array
