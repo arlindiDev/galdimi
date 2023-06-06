@@ -1,0 +1,6 @@
+Ndertoni klasen Vetura qe ka atribute shpejtesinAktuale , marken, ngjyren , shpejtesinMaksimale
+
+Ofroni ne function qe rrite shpejtesinAktuale per 1 sa her te thirret ajo metod, shpejtesiaAktuale nuk mund ta kaloj shpejtesinMaksimale.
+
+Ofroni ne function që bënë krahasimin për barazi të dy objekteve të tipit Vetura, dy Vetura jane te njejta nese kan marken, shpejtsinmaksimale dhe ngjyren e njejte
+
