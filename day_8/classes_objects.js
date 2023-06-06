@@ -9,11 +9,11 @@ var values = ["Galdim", "Arlind", "Hajdari"] // Array of String
 
 
 class Person {
-	constructor(name, age, height){
-	   	this.name = name
-	    this.age = age
-	    this.height = height
-	} 
+	constructor(name, age, height) {
+		this.name = name
+		this.age = age
+		this.height = height
+	}
 
 	sayMyName() {
 		console.log("My name is " + this.name + ". I am " + this.age + " years old.")
@@ -38,16 +38,19 @@ people[2] // Person
 
 
 // iterate the people and print their names
-for(var i = 0; i < 3; i++) {
+for (var i = 0; i < 3; i++) {
 
 	var personInArray = people[i]
-	
-	console.log(personInArray.name)
+	if (personInArray.isAdult()) {
+		console.log(personInArray.name)
+	}
+
+
 }
 
 
-console.log( person1.isAdult() )
-console.log( baby.isAdult() )
+console.log(person1.isAdult())
+console.log(baby.isAdult())
 
 // Object datatype -> Person
 // to create an Object use the keyword `new`

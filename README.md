@@ -7,3 +7,5 @@
 ### [Day 5 Arrays](https://github.com/arlindiDev/galdimi/tree/main/day_5) 
 ### [Day 6 ](https://github.com/arlindiDev/galdimi/tree/main/day_6) 
 ### [Day 7 ]
+### [Day 8 ] Functions
+### [Day 9 ] Objects
