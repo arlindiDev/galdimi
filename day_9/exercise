@@ -9,7 +9,7 @@ Veni re: Dy objekte të tipit Libri janë të barabartë nëse e kanë atributin
 --------------
 
 Klasa Biblioteka:
-Ofron konstruktorin e kësaj klase i cili si parametër pranon emrin e bibliotekës dhe numrin e librave në bibliotekë.
+Ofron konstruktorin e kësaj klase i cili si parametër pranon emrin e bibliotekës
 
 Ofroni metodën addLibri që mundëson ruajtjen e një libri në vargun e librave. Nëse libri ekziston, atëherë metoda kthen false, nese libri ruhet ne array kthen true.
 
