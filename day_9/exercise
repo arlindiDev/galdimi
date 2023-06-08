@@ -1,0 +1,17 @@
+
+Klasa Libri:
+Libri ka emer dhe isbn. 
+
+Ofroni metodën që bënë krahasimin për barazi të dy objekteve të tipit Libri. 
+
+Veni re: Dy objekte të tipit Libri janë të barabartë nëse e kanë atributin isbn të barabartë.
+
+
+Klasa Biblioteka:
+Ofron konstruktorin e kësaj klase i cili si parametër pranon emrin e bibliotekës dhe numrin e librave në bibliotekë.
+
+Ofroni metodën addLibri që mundëson ruajtjen e një libri në vargun e librave. Nëse libri ekziston, atëherë metoda kthen false, nese libri ruhet ne array kthen true.
+
+Ofroni metodën indexOf(Libri libri) që kthen vlerën e indeksit ku libri ndodhet në varg. Nëse libri nuk gjendet në varg, atëherë metoda kthen vlerën -1.
+
+Ofroni metodën main() ku do të krijohet një instancë e klasës Biblioteka me emrin “Naim Frasheri” dhe të shtohen 3 libra në këtë bibliotekë. 
