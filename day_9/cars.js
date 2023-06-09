@@ -26,7 +26,7 @@ class Car {
 
 
 var kerriPare = new Car('mercedes', 0, 'zeze', 50);
-var kerridyte = new Car('BMW', 1, 'bardhe', 40);
+var kerridyte = new Car('BMW', 1, 'bardhe', 40); // object of car 
 var kerritrete = new Car('BMW', 1, 'bardhe', 40);
 
 
