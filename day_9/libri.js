@@ -42,11 +42,8 @@ class Biblioteka {
     gjejIndex(libri) {
         for (var i = 0; i < this.librat.length; i++) {
             if (this.librat[i].krahasoLibrat(libri)) {
-               return this.librat.indexOf(libri)
+                return i
             }
-            //     
-        
-        
         }
         return -1
     }
@@ -64,6 +61,7 @@ bibloteka1.addLibri(libri1)
 bibloteka1.addLibri(libri2)
 bibloteka1.addLibri(libri3)
 
+// bibloteka1 = [libr1, libri2, libri3]
 
 
 console.log(bibloteka1.librat)
