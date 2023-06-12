@@ -1,0 +1,22 @@
+
+Klasa Produkti:
+Duhet ta ketë një konstruktor që pranon që të tri parametrat (id, emri dhe barcode.)
+
+Krijo nje function qe e krijon objektin e tipit Produkti psh createFunction(id, emri, barcode), ky function duhet me shiku nëse emri është i zbraztë ose id është më i vogël se zero (0) mos e lejo te krijohet klasa dmth kthe -1
+
+Ofroni metodën që përfaqëson objektin si String. Reprezentimi i një objekti të tipit Produkti në String duhet të jetë si vijon:
+nr: barcode  emri
+Ofroni metodën që bënë krahasimin për barazi të dy objekteve të tipit Produkti. 
+
+Veni re: Dy objekte të tipit Produkti janë të barabartë nëse e kanë atributin id të barabartë.
+
+
+Klasa Marketi:
+Ofroni konstruktorin e kësaj klase e cila e pranon si parametër emrin e marketit dhe numrin e produkteve. 
+
+Ofroni metodën getProdukti(int id) që kthen produktin nëse ndodhet në varg ose kthen null nëse nuk gjendet në varg.
+
+Ofroni metodën addProdukti që mundëson ruajtjen e produkteve në vargun e produkteve. Nëse produkti ekziston, atëherë function kthen -1. 
+
+Ofroni metodën main() ku do të krijohet një instancë e klasës Marketi me emrin “Maxi” dhe me mundësi të ruajtjes së 124 produkteve. Të shtohen tri produkte në market.
+
