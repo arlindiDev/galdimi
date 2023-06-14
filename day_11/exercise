@@ -1,0 +1,23 @@
+Klasa Komuna:
+Duhet ta ketë një konstruktor që pranon që të tri parametrat, ku edhe inicializohen variablat e instancës: nr, emri dhe kodiPostal. 
+
+Ofroni nje funciton ku krijohet Komuna. Komuna mund te krijohet veten ne kushtet ne vazhdin:
+ - Emri është i zbraztë
+ - nr (numri) është jashtë rangut 1 .. 999
+
+Ofroni metodën që përfaqëson objektin si String. Reprezentimi i një objekti të tipit Komuna në String duhet të jetë si vijon:
+kodiPostal - emri
+
+Ofroni metodën që bënë krahasimin për barazi të dy objekteve të tipit Komuna. 
+Veni re: Dy objekte të tipit Komuna janë të barabartë nëse e kanë atributin kodiPostal të barabartë (case insensitive).
+
+Klasa Shteti:
+Ofroni konstruktorin e kësaj klase e cila e pranon si parametër emrin e shtetit dhe numrin e komunave të shtetit.
+
+Ofroni metodën getKomuna(String kodiPostal) që kthen komunën që ndodhet në varg ose vlerën null nëse nuk gjendet në varg
+
+Ofroni metodën addKomuna që mundëson ruajtjen e Komunës në vargun e komunave të shtetit. Nëse Komuna me atributin kodiPostal ekziston, atëherë metoda kthen false specifik ShtetiException. Po ashtu, nëse nuk ka vend të lirë në varg metoda duhet të kthej false
+
+
+
+Krijoni një instancë e klasës Shteti me emrin Kosova. Të regjistrohen dy Komuna në këtë shtet.
