@@ -1,0 +1,42 @@
+Testin
+
+1.
+Shkruani klasën UbtDouble e cila kryen këtë funksion:
+
+e ka nje function ku pranon si parameter nje array.
+Functioni kalkulon fuqin katror te numrit me te vogel ne array.
+
+Thirre function me dy array te ndryshem
+
+--------------------------------------------------------
+
+2.
+Krijoni Klasen Apartment. Apartmenti ka 4 atribute: nr (int), kati (String) dhe shtreter (int), bool avaialbe.
+
+Krijoni klasën Host, që modelon një Host, e që përmban dy atribute: emri (i hostit) dhe apartmentet e tij(array)
+
+
+Klasa Apartment:
+Duhet ta ketë një konstruktor që pranon që të tri parametrat, ku edhe inicializohen variablat e instancës: nr, kati dhe shtreter. 
+
+Nëse kati është i zbraztë ose shtretërit janë jashtë rangut 1 .. 6, duhet te kthej -1 me mesazh të qartë që të informohet shfrytëzuesi pse nuk mund të krijohet një instancë e objektit Apartment. 
+
+Ofroni metodën që përfaqëson Apartment si String. Reprezentimi i një objekti të tipit Apartment në String duhet të jetë si vijon:
+kati - nr : shtreter
+
+Ofroni metodën që bënë krahasimin për barazi të dy objekteve të tipit Apartment. 
+Veni re: Dy objekte të tipit Apartment janë të barabartë nëse e kanë atributin kati dhe nr të barabartë.
+
+Klasa Host:
+Ofroni konstruktorin e kësaj klase e cila e pranon si parametër emrin e hostit dhe numrin e apartmenteve. 
+
+Ofroni metodën indexOf(Apartment apartment) që kthen vlerën e indeksit ku apartment ndodhet në varg. Nëse apartment nuk gjendet në varg, atëherë metoda kthen vlerën -1.
+
+Ofroni metodën addApartment që mundëson ruajtjen e Apartment në vargun e apartmenteve të hostit. Nëse apartment ekziston, atëherë metoda kthen false. Nese shtohet apartmenti le te kthen true
+
+
+Ofroni metodën getAvailableApartments qe kthen apartmentet e lira.
+
+
+Krijoni nje Host me emrin "Apartment Prishtina", dhe shto 5 apartmente ne ate host.
+
