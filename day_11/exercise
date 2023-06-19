@@ -1,7 +1,7 @@
 Klasa Komuna:
 Duhet ta ketë një konstruktor që pranon që të tri parametrat, ku edhe inicializohen variablat e instancës: nr, emri dhe kodiPostal. 
 
-Ofroni nje funciton ku krijohet Komuna. Komuna mund te krijohet veten ne kushtet ne vazhdin:
+Ofroni nje funciton ku krijohet Komuna. Komuna mund te krijohet veten ne kushtet ne vazhdim:
  - Emri është i zbraztë
  - nr (numri) është jashtë rangut 1 .. 999
 
@@ -16,7 +16,7 @@ Ofroni konstruktorin e kësaj klase e cila e pranon si parametër emrin e shteti
 
 Ofroni metodën getKomuna(String kodiPostal) që kthen komunën që ndodhet në varg ose vlerën null nëse nuk gjendet në varg
 
-Ofroni metodën addKomuna që mundëson ruajtjen e Komunës në vargun e komunave të shtetit. Nëse Komuna me atributin kodiPostal ekziston, atëherë metoda kthen false specifik ShtetiException. Po ashtu, nëse nuk ka vend të lirë në varg metoda duhet të kthej false
+Ofroni metodën addKomuna që mundëson ruajtjen e Komunës në vargun e komunave të shtetit. Nëse Komuna me atributin kodiPostal ekziston, atëherë metoda kthen false.
 
 
 

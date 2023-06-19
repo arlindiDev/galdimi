@@ -10,3 +10,4 @@
 ### [Day 8 ] Functions
 ### [Day 9 ] Objects
 ### [Day 10] Classes and Objects
+### [Day 11] Exercises with Classes and Objects

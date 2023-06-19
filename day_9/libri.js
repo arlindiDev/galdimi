@@ -54,7 +54,9 @@ class Biblioteka {
 libri1 = new Libri('Gjenerali', 1234) // object e tipit libri
 libri2 = new Libri('Hajdari', 1235)  // object e tipit libri
 libri3 = new Libri('Javascript Book', 1236)
-libri1.krahasoLibrat(libri2)
+var hajdeLibri = libri1.krahasoLibrat(libri2);
+console.log(hajdeLibri);
+
 bibloteka1 = new Biblioteka('Naim Frasheri')
 
 bibloteka1.addLibri(libri1)

@@ -9,12 +9,18 @@ class Hotel {
     }
 
     checkAvailability() {
-        return this.totalApartments - this.bookedApartments;
+        return this.totalApartments - this.bookedApartments; // 
     }
-
 }
 
-var apartment1 = new Hotel('Prishtina', 8, 3, '2 Bedroom, 1 Bedroom');
+class Apartment {
+    constructor(emriApartmentit) {
+        this.emriApartmentit = emriApartmentit
+        this.rezervimi = []
+    }
+}
+
+var apartment1 = new Hotel('Prishtina', 8, 3, '2 Bedroom, 1 Bedroom'); // instance e objektit Hotel 
 var apartment2 = new Hotel('Prizreni', 5, 2, '1 Bedroom');
 
 console.log(apartment1.name);
