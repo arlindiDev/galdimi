@@ -65,6 +65,8 @@ komuna2 = new Komuna(2, 'Prizreni', '11000')
 komuna3 = new Komuna(3, 'Peja', '12000')
 komuna4 = new Komuna(4, 'Mitrovica', '13000')
 
+console.log(komuna1.toString());
+
 komuna1.krahasoKomunat(komuna2)
 
 shteti1.addKomuna(komuna1)
