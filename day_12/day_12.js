@@ -58,20 +58,39 @@ class Host {
         return -1
     }
 
-    getAvailableApartments(apartment) {
-        if (apartment.isAvailable == true) {
-            return true
+    getAvailableApartments() {
+       var availableApartments = [];
+
+        for (var i = 0; i < this.apartmentet.length; i++) {
+           var apartment = this.apartmentet[i];
+            if (apartment.isAvailable) {
+                availableApartments.push(apartment)
+            }
         }
-        return false 
+
+        return availableApartments;
     }
-        
+
+    getApartmentsWithBeds(nrOfBeds) {
+        var availableApartments = [];
+ 
+         for (var i = 0; i < this.apartmentet.length; i++) {
+            var apartment = this.apartmentet[i];
+             if (apartment.shtreter >= nrOfBeds) {
+                 availableApartments.push(apartment)
+             }
+         }
+ 
+         return availableApartments;
+     }
+
 }
 
-host1 = new Host('Apartment Prishtina')
+host1 = new Host('Apartment Prishtina') // instance e objektit Host
 
-apartment1 = createApartment(12, 'Kati 1', 2, true)
-apartment2 = createApartment(13, 'Kati 2', 4, false)
-apartment3 = createApartment(11, 'Kati 3', 3, true)
+apartment1 = createApartment(11, 'Kati 1', 2, true) // 
+apartment2 = createApartment(12, 'Kati 2', 4, false)
+apartment3 = createApartment(13, 'Kati 3', 3, true)
 
 
 
@@ -80,5 +99,7 @@ host1.addApartmentin(apartment2)
 host1.addApartmentin(apartment3)
 
 console.log(host1)
-console.log(host1.getAvailableApartments(apartment1))
-console.log(apartment2.isAvailable)
+console.log(host1.getAvailableApartments())
+console.log(host1.getApartmentsWithBeds(10))
+console.log(host1.getApartmentsWithBeds(3))
+console.log(host1.getApartmentsWithBeds(4))
