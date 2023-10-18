@@ -101,7 +101,7 @@ class Host {
 
 host1 = new Host('Apartment Prishtina') // instance e objektit Host
 
-apartment1 = createApartment(11, 'Kati 1', 2, true) // 
+apartment1 = createApartment(11, 'Kati 1', 2, true) // instance e objektit apartment
 apartment2 = createApartment(12, 'Kati 2', 4, false)
 apartment3 = createApartment(13, 'Kati 3', 3, true)
 
