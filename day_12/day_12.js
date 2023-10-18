@@ -1,9 +1,9 @@
 class Apartment {
     constructor(nr, kati, shtreter, isAvailable) {
         this.nr = nr,
-            this.kati = kati,
-            this.shtreter = shtreter,
-            this.isAvailable = isAvailable
+        this.kati = kati,
+        this.shtreter = shtreter,
+        this.isAvailable = isAvailable
     }
 
     toString() {
@@ -29,9 +29,9 @@ function createApartment(nr, kati, shtreter, isAvailable) {
 }
 
 class Host {
-    constructor(emriHost, apartmentet) {
-        this.emriHost = emriHost,
-            this.apartmentet = []
+    constructor(emriHost) {
+        this.emriHost = emriHost
+        this.apartmentet = []
     }
 
     addApartmentin(apartment) {
@@ -59,10 +59,10 @@ class Host {
     }
 
     getAvailableApartments() {
-       var availableApartments = [];
+        var availableApartments = [];
 
         for (var i = 0; i < this.apartmentet.length; i++) {
-           var apartment = this.apartmentet[i];
+            var apartment = this.apartmentet[i];
             if (apartment.isAvailable) {
                 availableApartments.push(apartment)
             }
@@ -73,17 +73,30 @@ class Host {
 
     getApartmentsWithBeds(nrOfBeds) {
         var availableApartments = [];
- 
-         for (var i = 0; i < this.apartmentet.length; i++) {
-            var apartment = this.apartmentet[i];
-             if (apartment.shtreter >= nrOfBeds) {
-                 availableApartments.push(apartment)
-             }
-         }
- 
-         return availableApartments;
-     }
 
+        for (var i = 0; i < this.apartmentet.length; i++) {
+            var apartment = this.apartmentet[i];
+            if (apartment.shtreter >= nrOfBeds) {
+                availableApartments.push(apartment)
+            }
+        }
+
+        return availableApartments;
+    }
+
+    removeApartment(apartment) {
+        if (this.apartmentet.length == 0) {
+            return false
+        }
+        for (var i = 0; i < this.apartmentet.length; i++) {
+            if (apartment == this.apartmentet[i]) {
+                this.apartmentet.pop(apartment)
+                return true
+            }
+
+        }
+        return false
+    }
 }
 
 host1 = new Host('Apartment Prishtina') // instance e objektit Host
@@ -99,7 +112,21 @@ host1.addApartmentin(apartment2)
 host1.addApartmentin(apartment3)
 
 console.log(host1)
-console.log(host1.getAvailableApartments())
-console.log(host1.getApartmentsWithBeds(10))
-console.log(host1.getApartmentsWithBeds(3))
-console.log(host1.getApartmentsWithBeds(4))
+
+console.log(apartment1.krahasoApartmentin(apartment2));
+
+
+
+
+host1.removeApartment(apartment1)
+console.log(host1)
+
+host1.getApartmentsWithBeds(4)
+
+
+
+
+
+
+
+
