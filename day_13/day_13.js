@@ -114,7 +114,7 @@ function repeat (str, num){
     }
     return final
 }
-console.log(repeat('abc ', 4))
+console.log(repeat('abc ', 6))
 
 
 
